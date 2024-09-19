@@ -1,0 +1,27 @@
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.taskText {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.taskBtn {
+    display: inline-block;
+    background: url("../../assets/delete.svg") center no-repeat, transparent;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.taskBtn:hover {
+    background: url("../../assets/deleteHover.svg") center no-repeat, transparent;
+}

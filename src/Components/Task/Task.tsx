@@ -10,8 +10,8 @@ interface ITask {
 const Task: React.FC<ITask> = ({text, id, onDeleteTask}) => {
     return (
         <div id={id} className="taskContainer">
-            <p className='taskText'>{text}</p>
-            <button type='button' onClick={onDeleteTask} className='taskBtn'>Delete</button>
+            <p className="taskText">{text}</p>
+            <button type="button" onClick={onDeleteTask} className="taskBtn"></button>
         </div>
     );
 };

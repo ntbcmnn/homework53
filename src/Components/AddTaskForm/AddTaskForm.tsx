@@ -9,14 +9,14 @@ interface IAddTaskForm {
 
 const AddTaskForm: React.FC<IAddTaskForm> = ({currentTask, onChangeTask, onAddTask}) => {
     return (
-        <div className='formContainer'>
+        <div className="formContainer">
             <input type="text"
                    onChange={onChangeTask}
-                   placeholder="Add Task"
+                   placeholder="Task..."
                    value={currentTask}
-                   className='formInput'
+                   className="formInput"
             />
-            <button type="button" onClick={onAddTask} className='formBtn'>Add</button>
+            <button type="button" onClick={onAddTask} className="formBtn">Add</button>
         </div>
     );
 };
